@@ -1,0 +1,21 @@
+.duties {
+  display: none;
+}
+
+@media screen and (min-width: 1158px) {
+  .duties {
+    display: block;
+    background-color: var(--white);
+    padding-top: 0;
+  }
+
+  .duties-list {
+    display: flex;
+    gap: 24px;
+  }
+  .duties-item {
+    flex-basis: calc((100% - 24 * 2) / 3);
+  }
+  .duties-img {
+  }
+}
