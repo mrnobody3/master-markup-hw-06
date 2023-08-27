@@ -98,6 +98,10 @@
   color: var(--slate);
 }
 @media screen and (min-width: 768px) {
+  .section-portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
   .filter {
     margin-bottom: 64px;
     justify-content: center;
@@ -117,6 +121,10 @@
   }
 }
 @media screen and (min-width: 1158px) {
+  .section-portfolio {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
   .filter {
     margin-bottom: 72px;
   }
